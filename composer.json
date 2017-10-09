@@ -11,12 +11,11 @@
         }
     ],
     "require": {
-		"php": ">=5.3"	
+		"php": ">=7.0"
 	},
 	"autoload" : {
 		"psr-4" : {
-		  	"Dump7\\" : "src/PHP7/",
-		  	"Dump5\\" : "src/PHP5/"
+		  	"Dump\\" : "src/"
 		}
     }
 }
